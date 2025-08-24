@@ -13,7 +13,7 @@ TODO:
 - [ ] ScreenLock
 - [ ] Settings
 - [ ] Custom clock and calendar (written by me not others)
-- [ ] Workspace Manager that works will multiple WMs
+- [ ] Workspace Manager that works with multiple WMs
 - [ ] Music controls
 - [ ] Custom notifications
 - [ ] Nixify
