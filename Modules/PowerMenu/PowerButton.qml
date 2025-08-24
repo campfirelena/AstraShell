@@ -8,27 +8,27 @@ import Quickshell
               }
               MenuButton {
                 command: "loginctl terminate-user $USER"
-                icon: "Lock"
+                icon: "Logout"
                 text: "Logout"
               }
               MenuButton {
                 command: "loginctl suspend"
-                icon: "Lock"
+                icon: "Pause_Circle"
                 text: "Suspend"
               }
               MenuButton {
                 command: "loginctl hibernate"
-                icon: "Lock"
+                icon: "Bedtime"
                 text: "Hibernate"
               }
               MenuButton {
                 command: "loginctl poweroff"
-                icon: "Lock"
+                icon: "Mode_Off_On"
                 text: "Power Off"
               }
               MenuButton {
                 command: "loginctl reboot"
-                icon: "Lock"
+                icon: "Restart_Alt"
                 text: "Reboot"
               }
             }
