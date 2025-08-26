@@ -88,45 +88,11 @@ Item {
               id: lock
             }
           }
-          IconButton { // PowerMenu Module
+          PowerButton { // PowerMenu Module
             icon: "Power_Settings_New"
             Layout.alignment: Qt.AlignHCenter
             onClicked: {
               launcherMenu.visible = false
-              powerMenu.isOpen = true
-            }
-            PowerMenu {
-              id:powerMenu
-              MenuButton {
-                command: "loginctl lock-session"
-                icon: "Lock"
-                text: "Lock"
-              }
-              MenuButton {
-                command: "loginctl terminate-user $USER"
-                icon: "Lock"
-                text: "Logout"
-              }
-              MenuButton {
-                command: "loginctl suspend"
-                icon: "Lock"
-                text: "Suspend"
-              }
-              MenuButton {
-                command: "loginctl hibernate"
-                icon: "Lock"
-                text: "Hibernate"
-              }
-              MenuButton {
-                command: "loginctl poweroff"
-                icon: "Lock"
-                text: "Power Off"
-              }
-              MenuButton {
-                command: "loginctl reboot"
-                icon: "Lock"
-                text: "Reboot"
-              }
             }
           }
           IconButton { // Light and dark mode maybe?
