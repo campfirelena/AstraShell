@@ -1,0 +1,25 @@
+These are features that I want to include in this project, with some tentative features included.
+
+- [X] Bar
+    - [ ] Make it modular
+- [X] Clock
+- [X] Calendar
+    - [ ] Rewrite so it's my code
+- [X] Launcher
+    - [ ] Separate it from the Bar
+    - [ ] Choose buttons or button layout
+- [X] PowerMenu
+- [ ] ScreenLock
+- [ ] Music controls
+    - [ ] Make it work with anything
+- [ ] Volume Controls
+- [ ] Settings
+    - [ ] GUI
+- [X] Workspace Manager
+    - [X] Niri
+    - [ ] Hyprland
+    - [ ] i3
+    - [ ] Generic Wayland
+    - [ ] Generic X11
+- [ ] Custom notifications
+- [ ] Nixify

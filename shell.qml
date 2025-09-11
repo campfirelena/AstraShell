@@ -4,7 +4,7 @@ import Quickshell
 import Quickshell.Io
 import QtQuick
 import QtCore
-import qs.Modules
+import qs.modules
 
 Scope {
   id: root
