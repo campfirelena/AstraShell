@@ -56,7 +56,7 @@ Scope {
             color: "transparent"
             width: 40
             height: parent.height
-            Launcher {
+            LauncherButton {
               anchors.top: parent.top
               anchors.left: parent.left
             }

@@ -1,12 +1,10 @@
 ## Quickshell Config
 
-This is a config that is modular, so that other people can take modules and use them in their own config.
+This is my quickshell Config, I'm writing this myself because I want this to be perfect for me.
 
-Currently some files in the Components directory are being used in the Bar Module, but I am looking to move away from this so you don't need to dig to get every part of the modules.
-
+I might add extras so that other people can just put it in, but I have gone back on the modular nature of this so that I can do cool stuff.
 
 # Still deciding:
-Make a separate config that isn't modular? Maybe make this one not modular and make a separate modular one?
 Globals.qml?
 Settings GUI?
 Display Manager? (greetd)

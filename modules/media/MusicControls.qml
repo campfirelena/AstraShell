@@ -3,6 +3,8 @@ import Quickshell.Services.Mpris
 import QtQuick
 import QtQuick.Layouts
 import qs.settings
+import qs.services
+import qs.components
 
 MouseArea {
   id: button
@@ -17,7 +19,7 @@ MouseArea {
   hoverEnabled: true
   onEntered: hovering = true
   onExited: hovering = false
-  onClicked: popup.isOpen = true
+  onClicked: popup.isOpen = !popup.isOpen
 
   Rectangle {
     anchors.fill: parent
@@ -78,25 +80,25 @@ MouseArea {
           anchors.horizontalCenter: parent.horizontalCenter
           readonly property alias player: button.activePlayer;
 
-          ControlsButton {
+          IconButton {
             id: shuffle
             icon: activePlayer.ShuffleSupported ? "Shuffle" : "Shuffle_On"
           }
-          ControlsButton {
+          IconButton {
             id: left
             icon: "Skip_Previous"
             onClicked: activePlayer.skipPrev()
           }
-          ControlsButton {
+          IconButton {
             id: play
             icon: activePlayer.isPlaying ? "Resume" : "Pause"
             onClicked: activePlayer.togglePlaying()
           }
-          ControlsButton {
+          IconButton {
             id: right
             icon: "Skip_Next"
           }
-          ControlsButton {
+          IconButton {
             id: loop
             icon: activePlayer.loopState ? "Repeat" : "Repeat_On"
           }
